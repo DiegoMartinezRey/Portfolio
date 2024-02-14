@@ -7,3 +7,12 @@
   display: flex;
   justify-content: space-around;
 }
+
+.navBar_container > div {
+  display: flex;
+  gap: 40px;
+}
+.navBar_container > h3:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

@@ -1,4 +1,6 @@
 import React from "react";
+import AboutMe from "../../containers/AboutMe/AboutMe";
+import Header from "../../containers/Header/Header";
 import "./Home.css";
 
 const Home = () => {
@@ -6,7 +8,10 @@ const Home = () => {
     <>
       <div className="flexHome_container">
         <div className="home_container">
-          <div>Home</div>
+          <Header />
+        </div>
+        <div className="home_container">
+          <AboutMe />
         </div>
       </div>
     </>
