@@ -3,8 +3,5 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-}
-
-.flex_AboutMe > p {
   text-align: center;
 }

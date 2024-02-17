@@ -1,25 +1,18 @@
-.header {
+.flexHeader {
+  height: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
 }
+
 .profileInfo {
   width: auto;
 }
 
-.name_style {
-  font-size: 40pt;
-  font-weight: bold;
-}
-.description_style {
-  font-size: 20pt;
-}
-
 .profileImage {
   background-color: white;
-  max-width: 600px;
-  min-width: 300px;
+  width: 50%;
   aspect-ratio: 1/1;
   border-radius: 20px;
 }

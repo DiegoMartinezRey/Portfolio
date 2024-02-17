@@ -4,16 +4,19 @@ import "./Header.css";
 const Header = () => {
   return (
     <>
-      <div className="header">
+      <div className="flexHeader">
         <div className="profileInfo">
-          <h3>Hello! my name is</h3>
-          <h1 className="name_style">Diego Martinez</h1>
-          <h2 className="description_style">
-            Professional in mechatronics engineering with a master's degree in
-            full stack development.
-          </h2>
+          <div>
+            <h3>Hello! my name is</h3>
+            <h1 className="name_style">Diego Martinez</h1>
+            <h3 className="description_style">
+              Professional in mechatronics engineering with a master's degree in
+              full stack development.
+            </h3>
+            <div className="profileImage"></div>
+          </div>
         </div>
-        <div className="profileImage"></div>
+        <div>Social media</div>
       </div>
     </>
   );

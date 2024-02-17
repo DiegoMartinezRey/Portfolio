@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <>
       <div className="flex_AboutMe">
-        <h1>About me</h1>
+        <h2>About me</h2>
         <p>
           Profesional en ingeniería mecatrónica con experiencia en el área de
           servicio técnico, automatización, programación, soporte comercial y

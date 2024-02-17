@@ -20,6 +20,19 @@ p {
   margin: 0;
 }
 
-.navBar {
-  position: sticky;
+h1 {
+  font-size: 36pt;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24pt;
+  font-weight: bold;
+}
+h3 {
+  font-size: 18pt;
+  font-weight: bold;
+}
+p {
+  font-size: 12pt;
+  font-weight: normal;
 }

@@ -9,15 +9,17 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
-      <div className="flexHome_container">
-        <div className="home_container">
-          <Header />
-        </div>
-        <div className="home_container">
-          <AboutMe />
-          <Experience />
-          <MyProjects />
-          <MySkills />
+      <div className="flexHome">
+        <div className="homeContainer">
+          <div className="header_container">
+            <Header />
+          </div>
+          <div className="home_container">
+            <AboutMe />
+            <Experience />
+            <MyProjects />
+            <MySkills />
+          </div>
         </div>
       </div>
     </>
