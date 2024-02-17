@@ -1,8 +1,11 @@
 .navBar_container {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(8px);
   height: auto;
-
   padding: 15px 20px;
+
+  position: sticky;
+  top: 0;
 
   display: flex;
   justify-content: space-around;
