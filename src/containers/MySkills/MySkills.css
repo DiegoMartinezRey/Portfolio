@@ -1,0 +1,50 @@
+.flexLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.logoStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.4s ease-in-out;
+}
+.logoStyle:hover {
+  transform: translateY(-10px);
+}
+
+.logoContainer {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo {
+  height: 70%;
+  border-radius: 10px;
+}
+.nameLogo {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  transition: all 0.4s ease-in-out;
+  z-index: -1;
+  opacity: 0;
+}
+.logoStyle:hover .nameLogo {
+  opacity: 1;
+  top: 10px;
+}

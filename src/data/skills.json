@@ -1,0 +1,38 @@
+[
+  {
+    "name": "HTML",
+    "logo": "/src/assets/images/html5.png"
+  },
+  {
+    "name": "CSS",
+    "logo": "/src/assets/images/css.png"
+  },
+  {
+    "name": "JavaScript",
+    "logo": "/src/assets/images/javascript.png"
+  },
+  {
+    "name": "React",
+    "logo": "/src/assets/images/react.png"
+  },
+  {
+    "name": "Git",
+    "logo": "/src/assets/images/git.png"
+  },
+  {
+    "name": "GitHub",
+    "logo": "/src/assets/images/github.png"
+  },
+  {
+    "name": "Figma",
+    "logo": "/src/assets/images/figma.png"
+  },
+  {
+    "name": "Express",
+    "logo": "/src/assets/images/express.png"
+  },
+  {
+    "name": "MongoDB",
+    "logo": "/src/assets/images/mongodb.png"
+  }
+]
