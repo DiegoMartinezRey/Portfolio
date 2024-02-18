@@ -1,29 +1,31 @@
 .flexHome {
   display: flex;
   justify-content: center;
+
+  background: radial-gradient(ellipse at bottom, #7109b75d 0%, transparent 100%),
+    radial-gradient(ellipse at top, #03a8f45d 0%, transparent 100%);
 }
 
 .homeContainer {
   width: 100%;
   max-width: 1024px;
   min-height: 100vh;
-  padding: 0 20px;
+  margin: 0 20px;
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 
 .header_container {
-  width: 45%;
+  width: 50%;
   max-height: 100vh;
   position: sticky;
   top: 0;
-  padding: 10px;
 }
 
 .home_container {
-  width: 45%;
+  width: 50%;
   border: 0px solid white;
-  padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 30px;

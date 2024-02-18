@@ -14,7 +14,7 @@ const MySkills = () => {
   };
 
   return (
-    <div>
+    <div className="containerFlex">
       <h2>Skills</h2>
       <div className="flexLogos">
         {mySkills.map((skill, id) => (
