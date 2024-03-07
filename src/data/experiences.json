@@ -1,33 +1,33 @@
 [
   {
     "name": "Peephole app",
-    "description": "dadadqfkn w kow owe io o j",
+    "description": "An application to connect people in madrid, where you can register and talk to different people according to your interests, you can also choose and book activities that will be published to expand your network of contacts and friendships.",
     "tools": ["HTML", "CSS", "JS", "React"],
-    "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact",
-    "github_BE": "https://github.com/DiegoMartinezRey/calculatorReact",
+    "github_FE": "https://github.com/DiegoMartinezRey/NFSD_APP_FRONTEND",
+    "github_BE": "https://github.com/DiegoMartinezRey/NFSD_APP_BACKEND",
     "web": "https://nfsd-app-frontend.onrender.com/",
     "image": "/images/project4.png"
   },
   {
     "name": "To do app",
-    "description": "dadadqfkn w kow owe io o j",
+    "description": "A to-do list application which connects to a database and can create, delete and complete the task it has set out to do.",
     "tools": ["HTML", "CSS", "JS", "React"],
-    "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact",
-    "github_BE": "https://github.com/DiegoMartinezRey/calculatorReact",
+    "github_FE": "https://github.com/DiegoMartinezRey/ToDoApp_Frontend",
+    "github_BE": "https://github.com/DiegoMartinezRey/ToDoApp_Backend",
     "image": "/images/project3.png"
   },
   {
     "name": "React Calculator",
-    "description": "dadadqfkn w kow owe io o j",
+    "description": "Calculator with basic functions created with React",
     "tools": ["HTML", "CSS", "JS", "React"],
     "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact",
     "image": "/images/project2.png"
   },
   {
     "name": "JavaScript Calculator",
-    "description": "dadadqfkn w kow owe io o j",
+    "description": "Calculator with basic functions created with html, css and javascript",
     "tools": ["HTML", "CSS", "JS"],
-    "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact",
+    "github_FE": "https://github.com/DiegoMartinezRey/calculatorJS",
     "image": "/images/project1.png"
   }
 ]
