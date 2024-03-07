@@ -24,8 +24,8 @@
     "logo": "/src/assets/images/github.png"
   },
   {
-    "name": "Figma",
-    "logo": "/src/assets/images/figma.png"
+    "name": "Node",
+    "logo": "/src/assets/images/express.png"
   },
   {
     "name": "Express",
@@ -34,5 +34,9 @@
   {
     "name": "MongoDB",
     "logo": "/src/assets/images/mongodb.png"
+  },
+  {
+    "name": "Figma",
+    "logo": "/src/assets/images/figma.png"
   }
 ]

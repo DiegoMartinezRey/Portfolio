@@ -10,9 +10,28 @@
   width: auto;
 }
 
+.infoFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .profileImage {
   background-color: white;
   width: 50%;
   aspect-ratio: 1/1;
   border-radius: 20px;
+}
+
+.iconFlex {
+  display: flex;
+  gap: 20px;
+}
+.iconStyle {
+  color: white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.iconStyle:hover {
+  transform: scale(130%);
 }
