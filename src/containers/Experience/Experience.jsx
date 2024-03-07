@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <>
       <div className="flexContainer">
-        <h2>Experience</h2>
+        <h2>My projects</h2>
         <ExperienceBox />
       </div>
     </>
