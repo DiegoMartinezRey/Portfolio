@@ -18,26 +18,38 @@ const ExperienceBox = () => {
       <ul className="experienceBox_Container">
         {experiences.map((experience, id) => (
           <li key={id} className="listFlex">
-            <h3>{experience.name}</h3>
-            <p>{experience.description}</p>
-            <div className="buttonsFlex">
-              {experience.github_FE && (
-                <ButtonStyle
-                  title="FrontEnd"
-                  type="FrontEnd"
-                  link={experience.github_FE}
+            <div className="experienceColumns">
+              <div className="infoProyectFlex">
+                <h3>{experience.name}</h3>
+                <p>{experience.description}</p>
+                <div className="buttonsFlex">
+                  {experience.github_FE && (
+                    <ButtonStyle
+                      title="FrontEnd"
+                      type="FrontEnd"
+                      link={experience.github_FE}
+                    />
+                  )}
+                  {experience.github_BE && (
+                    <ButtonStyle
+                      title="BackEnd"
+                      type="BackEnd"
+                      link={experience.github_BE}
+                    />
+                  )}
+                  {experience.web && (
+                    <ButtonStyle title="Web" type="web" link={experience.web} />
+                  )}
+                </div>
+              </div>
+              <div>
+                <img
+                  className="imageProyect"
+                  src={experience.image}
+                  alt={experience.name}
                 />
-              )}
-              {experience.github_BE && (
-                <ButtonStyle
-                  title="BackEnd"
-                  type="BackEnd"
-                  link={experience.github_BE}
-                />
-              )}
-              {experience.web && (
-                <ButtonStyle title="Web" type="web" link={experience.web} />
-              )}
+                <div></div>
+              </div>
             </div>
           </li>
         ))}

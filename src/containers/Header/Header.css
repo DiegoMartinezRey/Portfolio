@@ -18,9 +18,12 @@
 
 .profileImage {
   background-color: white;
+  border: 2px solid white;
   width: 50%;
+  min-width: 200px;
   aspect-ratio: 1/1;
   border-radius: 20px;
+  object-fit: cover;
 }
 
 .iconFlex {

@@ -5,25 +5,29 @@
     "tools": ["HTML", "CSS", "JS", "React"],
     "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact",
     "github_BE": "https://github.com/DiegoMartinezRey/calculatorReact",
-    "web": "https://nfsd-app-frontend.onrender.com/"
+    "web": "https://nfsd-app-frontend.onrender.com/",
+    "image": "/images/project4.png"
   },
   {
     "name": "To do app",
     "description": "dadadqfkn w kow owe io o j",
     "tools": ["HTML", "CSS", "JS", "React"],
     "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact",
-    "github_BE": "https://github.com/DiegoMartinezRey/calculatorReact"
+    "github_BE": "https://github.com/DiegoMartinezRey/calculatorReact",
+    "image": "/images/project3.png"
   },
   {
     "name": "React Calculator",
     "description": "dadadqfkn w kow owe io o j",
     "tools": ["HTML", "CSS", "JS", "React"],
-    "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact"
+    "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact",
+    "image": "/images/project2.png"
   },
   {
     "name": "JavaScript Calculator",
     "description": "dadadqfkn w kow owe io o j",
     "tools": ["HTML", "CSS", "JS"],
-    "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact"
+    "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact",
+    "image": "/images/project1.png"
   }
 ]

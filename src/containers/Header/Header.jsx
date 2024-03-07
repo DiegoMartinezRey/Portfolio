@@ -18,7 +18,11 @@ const Header = () => {
               Professional in mechatronics engineering with a master's degree in
               full stack development.
             </h3>
-            <div className="profileImage"></div>
+            <img
+              className="profileImage"
+              src="/images/image_profile.jpg"
+              alt=""
+            />
           </div>
         </div>
         <div className="iconFlex">
@@ -45,7 +49,7 @@ const Header = () => {
             className="iconStyle"
             onClick={() =>
               (window.location.href =
-                "https://www.linkedin.com/in/mechatronicengineerdiego/")
+                "https://drive.google.com/file/d/19GM2Ub7Kgl32iLmED7h863W_Ss2ItZtc/view?usp=sharing")
             }
           />
         </div>

@@ -11,6 +11,25 @@ ul {
   gap: 20px;
 }
 
+.experienceColumns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoProyectFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.imageProyect {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  background-color: white;
+  border-radius: 20px;
+}
+
 .toolsFlex {
   display: flex;
   gap: 10px;
