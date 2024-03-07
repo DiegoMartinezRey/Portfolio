@@ -22,9 +22,32 @@ const Header = () => {
           </div>
         </div>
         <div className="iconFlex">
-          <FontAwesomeIcon icon={faGithub} size="2xl" className="iconStyle" />
-          <FontAwesomeIcon icon={faLinkedin} size="2xl" className="iconStyle" />
-          <FontAwesomeIcon icon={faFile} size="2xl" className="iconStyle" />
+          <FontAwesomeIcon
+            icon={faGithub}
+            size="2xl"
+            className="iconStyle"
+            onClick={() =>
+              (window.location.href = "https://github.com/DiegoMartinezRey")
+            }
+          />
+          <FontAwesomeIcon
+            icon={faLinkedin}
+            size="2xl"
+            className="iconStyle"
+            onClick={() =>
+              (window.location.href =
+                "https://www.linkedin.com/in/mechatronicengineerdiego/")
+            }
+          />
+          <FontAwesomeIcon
+            icon={faFile}
+            size="2xl"
+            className="iconStyle"
+            onClick={() =>
+              (window.location.href =
+                "https://www.linkedin.com/in/mechatronicengineerdiego/")
+            }
+          />
         </div>
       </div>
     </>
