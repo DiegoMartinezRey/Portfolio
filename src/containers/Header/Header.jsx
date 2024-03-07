@@ -11,7 +11,7 @@ const Header = () => {
         <div className="profileInfo">
           <div className="infoFlex">
             <div>
-              <h3>Hello! my name is</h3>
+              <h3>Hello world! I am</h3>
               <h1 className="name_style">Diego Martinez</h1>
             </div>
             <h3 className="description_style">
