@@ -1,0 +1,17 @@
+.buttonStyle {
+  font-size: 12pt;
+  font-weight: bold;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+}
+.FrontEnd {
+  background-color: aqua;
+}
+.BackEnd {
+  background-color: grey;
+}
+.web {
+  background-color: rgb(134, 37, 134);
+}

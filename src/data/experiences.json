@@ -1,16 +1,29 @@
 [
   {
-    "name": "Experience 1",
+    "name": "Peephole app",
     "description": "dadadqfkn w kow owe io o j",
     "tools": ["HTML", "CSS", "JS", "React"],
-    "begin": 2018,
-    "end": "present"
+    "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact",
+    "github_BE": "https://github.com/DiegoMartinezRey/calculatorReact",
+    "web": "https://nfsd-app-frontend.onrender.com/"
   },
   {
-    "name": "Experience 2",
+    "name": "To do app",
     "description": "dadadqfkn w kow owe io o j",
     "tools": ["HTML", "CSS", "JS", "React"],
-    "begin": 2018,
-    "end": "present"
+    "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact",
+    "github_BE": "https://github.com/DiegoMartinezRey/calculatorReact"
+  },
+  {
+    "name": "React Calculator",
+    "description": "dadadqfkn w kow owe io o j",
+    "tools": ["HTML", "CSS", "JS", "React"],
+    "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact"
+  },
+  {
+    "name": "JavaScript Calculator",
+    "description": "dadadqfkn w kow owe io o j",
+    "tools": ["HTML", "CSS", "JS"],
+    "github_FE": "https://github.com/DiegoMartinezRey/calculatorReact"
   }
 ]

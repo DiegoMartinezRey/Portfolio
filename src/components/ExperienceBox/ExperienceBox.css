@@ -1,0 +1,37 @@
+li,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.experienceBox_Container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.toolsFlex {
+  display: flex;
+  gap: 10px;
+}
+
+.listFlex {
+  background-color: rgba(255, 255, 255, 0.199);
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.listFlex:hover {
+  transform: scale(105%);
+}
+
+.buttonsFlex {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}

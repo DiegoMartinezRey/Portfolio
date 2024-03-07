@@ -2,7 +2,6 @@ import React from "react";
 import AboutMe from "../../containers/AboutMe/AboutMe";
 import Experience from "../../containers/Experience/Experience";
 import Header from "../../containers/Header/Header";
-import MyProjects from "../../containers/MyProjects/MyProjects";
 import MySkills from "../../containers/MySkills/MySkills";
 import "./Home.css";
 
@@ -17,7 +16,7 @@ const Home = () => {
           <div className="home_container">
             <AboutMe />
             <Experience />
-            <MyProjects />
+            {/* <MyProjects /> */}
             <MySkills />
           </div>
         </div>
