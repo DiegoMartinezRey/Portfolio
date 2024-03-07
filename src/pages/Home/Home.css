@@ -18,6 +18,7 @@
 
 .header_container {
   width: 50%;
+  min-width: 300px;
   max-height: 100vh;
   position: sticky;
   top: 0;
@@ -25,8 +26,18 @@
 
 .home_container {
   width: 50%;
+  min-width: 300px;
   border: 0px solid white;
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+@media (max-width: 900px) {
+  .homeContainer {
+    flex-wrap: wrap;
+  }
+  .header_container {
+    position: relative;
+  }
 }
