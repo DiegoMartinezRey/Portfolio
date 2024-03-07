@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
 
-  background: radial-gradient(ellipse at bottom, #7109b75d 0%, transparent 100%),
-    radial-gradient(ellipse at top, #03a8f45d 0%, transparent 100%);
+  background: radial-gradient(ellipse at bottom, #57078d5d 0%, transparent 100%),
+    radial-gradient(ellipse at top, #0070a45d 0%, transparent 100%);
 }
 
 .homeContainer {

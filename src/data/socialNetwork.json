@@ -1,12 +1,12 @@
 [
   {
     "name": "LinkedIn",
-    "link": "",
+    "link": "https://www.linkedin.com/in/mechatronicengineerdiego/",
     "icon": "/src/assets/icons/linkedin.png"
   },
   {
     "name": "Git",
-    "link": "",
+    "link": "https://github.com/DiegoMartinezRey",
     "icon": "/src/assets/icons/linkedin.png"
   },
   {
