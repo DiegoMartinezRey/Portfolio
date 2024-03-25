@@ -1,15 +1,16 @@
 import React from "react";
 import "./ButtonStyle.css";
+import { Button } from "./styles";
 
 const ButtonStyle = ({ title, type, link }) => {
   return (
     <>
-      <button
-        className={`buttonStyle ${type}`}
+      <Button
+        // className={`buttonStyle ${type}`}
         onClick={() => (window.location.href = link)}
       >
         {title}
-      </button>
+      </Button>
     </>
   );
 };
