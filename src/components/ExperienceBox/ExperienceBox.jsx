@@ -26,19 +26,23 @@ const ExperienceBox = () => {
                   {experience.github_FE && (
                     <ButtonStyle
                       title="FrontEnd"
-                      type="FrontEnd"
+                      type="Blue"
                       link={experience.github_FE}
                     />
                   )}
                   {experience.github_BE && (
                     <ButtonStyle
                       title="BackEnd"
-                      type="BackEnd"
+                      type="Blue"
                       link={experience.github_BE}
                     />
                   )}
                   {experience.web && (
-                    <ButtonStyle title="Web" type="web" link={experience.web} />
+                    <ButtonStyle
+                      title="Web"
+                      type="purple"
+                      link={experience.web}
+                    />
                   )}
                 </div>
               </div>

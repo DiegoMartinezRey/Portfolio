@@ -6,6 +6,7 @@ const ButtonStyle = ({ title, type, link }) => {
   return (
     <>
       <Button
+        hoverColor={type}
         // className={`buttonStyle ${type}`}
         onClick={() => (window.location.href = link)}
       >
