@@ -18,12 +18,11 @@ const Header = () => {
               Professional in mechatronics engineering with a master's degree in
               full stack development.
             </h3>
-            <img
-              className="profileImage"
-              src="/images/image_profile.jpg"
-              alt=""
-            />
           </div>
+        </div>
+        <div>
+          <img className="profileImage" src="/images/logo_white.png" alt="" />
+          <div className="boxEmpty"></div>
         </div>
         <div className="iconFlex">
           <FontAwesomeIcon
