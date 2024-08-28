@@ -1,0 +1,51 @@
+.flexHeader {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.profileInfo {
+  width: auto;
+}
+
+.infoFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profileImage {
+  /* background-color: white;
+  border: 2px solid white; */
+  width: 60%;
+  min-width: 200px;
+  aspect-ratio: 1/1;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.boxEmpty {
+  height: 50px;
+}
+
+.iconFlex {
+  display: flex;
+  gap: 20px;
+}
+.iconStyle {
+  color: white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.iconStyle:hover {
+  color: rgb(0, 155, 226);
+  color: linear-gradient(
+    90deg,
+    rgba(0, 112, 164, 1) 0%,
+    rgba(0, 0, 0, 1) 46%,
+    rgba(87, 7, 141, 1) 100%
+  );
+  transform: scale(130%);
+}

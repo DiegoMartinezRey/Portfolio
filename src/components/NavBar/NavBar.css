@@ -1,0 +1,21 @@
+.navBar_container {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  height: auto;
+  padding: 15px 20px;
+
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.navBar_container > div {
+  display: flex;
+  gap: 40px;
+}
+.navBar_container > h3:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

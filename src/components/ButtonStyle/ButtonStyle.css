@@ -1,0 +1,19 @@
+.buttonStyle {
+  font-size: 12pt;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
+.FrontEnd:hover {
+  background-color: rgb(0, 155, 226);
+}
+.BackEnd:hover {
+  background-color: rgb(0, 155, 226);
+}
+.web:hover {
+  background-color: rgb(149, 9, 241);
+}

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Cascadia Code";
+  src: url("./fonts/CascadiaCodePL.ttf") format("truetype");
+}
+
+div {
+  font-family: Geist, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 36pt;
+  font-weight: bold;
+}
+h2 {
+  font-size: 26pt;
+  font-weight: bold;
+}
+h3 {
+  font-size: 14pt;
+  font-weight: bold;
+}
+p {
+  font-size: 12pt;
+  font-weight: normal;
+}
